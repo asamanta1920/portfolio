@@ -1,10 +1,11 @@
 <?php
 include_once "header.php";
 
-$number = 8;
+$number = 2;
 for($i=0; $i < $number; $i++){
 ?>
-	<img src='https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313_1280.jpg' class="puppy"/>
+	<img src="img1.jpg" class="img1">
+	<img src="img2.jpg" class="img2">
 <?php
 }
 include_once "footer.php";

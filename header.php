@@ -8,4 +8,8 @@
 </head>
 
 <body>
-<h1>My Header</h1>
+  <div>
+    <img src="header.png">
+    <h2>Hi! My name is Adrita Samanta. I am in 6th grade. I really love to code. These are some of the programs I have made over the past year. </h2>
+    <h3>Hope you like my website!</h3>
+  </div>
