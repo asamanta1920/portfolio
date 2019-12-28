@@ -1,7 +1,7 @@
 <?php
 include_once "header.php";
 
-$number = 2;
+$number = 1;
 for($i=0; $i < $number; $i++){
 ?>
 	<img src="img1.jpg" class="img1">
