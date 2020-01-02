@@ -13,7 +13,7 @@
 
     .topnav {
       overflow: hidden;
-      background-color: #333;
+      background-color: #cc0099;
     }
 
     .topnav a {
@@ -26,25 +26,21 @@
     }
 
     .topnav a:hover {
-      background-color: #ddd;
+      background-color: #33ccff;
       color: black;
     }
 
-    .topnav a.active {
-      background-color: #4CAF50;
-      color: white;
-    }
   </style>
 </head>
 
 <body>
-  <div>
+  <div class="grid-container">
     <img src="header.png">
-    <h2>Hi! My name is Adrita Samanta. I am in 6th grade. I really love to code. These are some of the programs I have made over the past year. </h2>
-    <h3>Hope you like my website!</h3>
+    <h2>Adrita Samanta </h2>
     <div class="topnav">
-      <a class="active" href="index.php">Home</a>
-      <a href="projects.php">Projects</a>
-      <a href="about.php">About Me</a>
+      <a class="home" href="index.php">Home</a>
+      <a class="projects" href="projects.php">Projects</a>
+      <a class="about" href="about.php">About Me</a>
     </div>
+    <h3>Hope you like my website!</h3>
   </div>
