@@ -41,8 +41,8 @@ if ($result->num_rows > 0) {
 
 <?php
 
-function create_project(id, name, link, description) {
-	$sql1 = "INSERT INTO Projects (id, name, link, description) VALUES (id, name, link, description);";
+function create_project($id, $name, $link, $description) {
+	$sql1 = "INSERT INTO Projects (id, name, link, description) VALUES ($id, $name, $link, $description);";
 
 	$result1 = $conn->query($sql1);
 }
