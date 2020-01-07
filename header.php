@@ -36,11 +36,11 @@
 <body>
   <div class="grid-container">
     <img src="header.png">
-    <h2>Adrita Samanta </h2>
+    <p class="site-name">Adrita Samanta </p>
+    <div>Hope you like my website!</div>
     <div class="topnav">
       <a class="home" href="index.php">Home</a>
       <a class="projects" href="projects.php">Projects</a>
       <a class="about" href="about.php">About Me</a>
     </div>
-    <h3>Hope you like my website!</h3>
   </div>

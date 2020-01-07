@@ -12,14 +12,16 @@ $total = 0
 </form>
 
 <?php
-for($i=0; $i < $_POST["packs"]; $i++){
-?>
-	<img src="img1.jpg" class="img1">
-	<img src="img2.jpg" class="img2">
+if (!empty($_POST["packs"])) {
+	for($i=0; $i < $_POST["packs"]; $i++){
+	?>
+		<img src="img1.jpg" class="img1">
+		<img src="img2.jpg" class="img2">
 
-<?php
+	<?php
+	}
+	$total = $_POST["packs"] * 2;
 }
-$total = $_POST["packs"] * 2
 ?>
 
 <h2>Your total cost is</h2>
