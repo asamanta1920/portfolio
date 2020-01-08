@@ -35,19 +35,7 @@ if (!empty($result)) {
 }
 
 
-
-//Form should have Name, Link, Desc
-//When submit is clicked it should call:
-//create_project('myproject [name]', 'mylink [link]', 'desc');
-
-
 $conn->close();
-
-function create_project($name, $link, $desc){
-//Insert into database
-
-
-}
 
 include_once "footer.php";
 ?>
