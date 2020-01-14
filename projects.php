@@ -38,16 +38,19 @@ if ($result->num_rows > 0) {
 
 <?php
 
-function create_project($id, $name, $link, $description) {
-	$sql1 = "INSERT INTO Projects (id, name, link, description) VALUES ($id, $name, $link, $description);";
+// function create_project($id, $name, $link, $description) {
+// 	$sql1 = "INSERT INTO Projects (id, name, link, description) VALUES ($id, $name, $link, $description);";
+//
+// 	$result1 = $conn->query($sql1);
+// }
 
-	$result1 = $conn->query($sql1);
-}
 
-if ( isset( $_POST['submit'] ) ) {
-	create_project($result1['id'], $result1['name'], $result1['link'], $result1['description']);
+if ($_SERVER["REQUEST_METHOD"] == "POST"){
+	// create_project($_POST['my_id'], $_POST['my_name'], $_POST['my_link'], $_POST['my_description']);
+	echo '<p>'.$_POST['my_id'].'</p>'.'<p>'.$_POST['my_name'].'</p>'.'<p>'.$_POST['my_link'].'</p>'.'<p>'.$_POST['my_description'].'</p>';
 }
 
 $conn->close();
+
 include_once "footer.php";
 ?>
